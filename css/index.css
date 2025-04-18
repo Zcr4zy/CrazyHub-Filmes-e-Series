@@ -84,3 +84,25 @@
     border-top-left-radius: var(--bs-border-radius-xxl) !important;
     border-top-right-radius: var(--bs-border-radius-xxl) !important;
 }
+
+#pesquisar input[type=text]{
+    padding: 15px 20px;
+    font-weight: 600;
+    background-color: rgb(255,255,255);
+    border-radius: 50px;
+    border: #E50914 solid 2px;
+    font-size: 18px;
+    width: 100%;
+}
+
+#pesquisar button{
+    padding: 12px;
+    top: 1px;
+    right: 0;
+    border-radius: 50%;
+    width: 60px;
+    font-size: 20px;
+    background-color: #E50914;
+    color:white;
+    border: #E50914 solid 2px;
+}
